@@ -1,3 +1,5 @@
+/*================= SECTION HEAD ===================== */
+
 .head
 {
 	background-image: url(../img/header.png);
@@ -6,3 +8,23 @@
 	background-size: cover;
 	height: 100vh;
 }
+div.head > .bg-color-menu
+{
+	background: rgba(27, 46, 78, .29);
+}
+/* mail and phone*/
+div.navbar-text > span
+{
+	margin: 20px;
+}
+div.navbar-text > span > i
+{
+	color: rgb(37,188,239);
+	margin-right: 10px;
+}
+
+.tool-rotate
+{
+	transform: rotate(90deg);
+}
+/*=============================================== */
