@@ -1,3 +1,7 @@
+/*================= FONTS ===================== */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
 /*================= SECTION HEAD ===================== */
 
 .head
@@ -26,5 +30,36 @@ div.navbar-text > span > i
 .tool-rotate
 {
 	transform: rotate(90deg);
+}
+.btn-head-position
+{
+	position: relative;
+	top: 90px;
+}
+/* Logo renessans*/
+.logo
+{
+	width: auto;
+	height: 108px;
+	background-image: url(../img/logo.png);
+	background-size: 400px;
+	background-repeat: no-repeat;
+}
+/* button presentation*/
+
+.btn-center
+{
+	margin-left: 80px;
+}
+.btn-style
+{
+	border: 4px solid rgb(37,188,239);
+	padding: 10px 30px 10px 30px;
+	text-transform: lowercase;
+	font-family: 'Roboto';
+	font-weight: 700;
+	border-radius: 0;
+	font-size: 22px;
+	color: #254266;
 }
 /*=============================================== */
