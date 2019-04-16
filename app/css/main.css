@@ -3,7 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
 /*================= SECTION HEAD ===================== */
-
+body
+{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 18px;
+}
 .head
 {
 	background-image: url(../img/header.png);
@@ -19,17 +24,21 @@ div.head > .bg-color-menu
 /* mail and phone*/
 div.navbar-text > span
 {
-	margin: 20px;
+	margin: 10px;
 }
-div.navbar-text > span > i
+.icon-style
 {
-	color: rgb(37,188,239);
+	color: #254266;
 	margin-right: 10px;
 }
 
 .tool-rotate
 {
 	transform: rotate(90deg);
+}
+.tool-rotate-180
+{
+	transform: rotate(180deg);
 }
 .btn-head-position
 {
@@ -56,10 +65,24 @@ div.navbar-text > span > i
 	border: 4px solid rgb(37,188,239);
 	padding: 10px 30px 10px 30px;
 	text-transform: lowercase;
-	font-family: 'Roboto';
-	font-weight: 700;
+	font-weight: 500;
 	border-radius: 0;
 	font-size: 22px;
 	color: #254266;
+}
+/* Text-logo*/
+.text-logo
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.text-logo > h1
+{
+	font-size: 82px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: right;
+	color: white;
 }
 /*=============================================== */
