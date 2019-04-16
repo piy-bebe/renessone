@@ -106,7 +106,15 @@ div.navbar-text > span
 	font-weight: 500;
 	font-size: 62px;
 }
-.direction > .row p
+.direction .row h2:before
 {
-	width: 32rem;
+	content: "";
+	display: block;
+	position: absolute;
+	left: -120px;
+	width: 100px;
+	height: 100px;
+	background-image: url(../icon/delivery-truck.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
 }
