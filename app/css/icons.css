@@ -13,6 +13,7 @@ i.icon-global
 }
 i.icon-delivery-truck
 {
+	left: 10%;
 	background-image: url(../icon/delivery-truck.png);
 }
 i.icon-discount
