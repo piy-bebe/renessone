@@ -36,3 +36,43 @@ i.icon-tree-silhouette
 {
 	background-image: url(../icon/tree-silhouette.png);
 }
+/*================================================*/
+i.icon-benefits
+{
+	display: block;
+	text-align: center
+	width: 90px;
+	height: 90px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-position: center;
+}
+.collaboration
+{
+	background-image: url(../icon/collaboration.png);
+}
+.box
+{
+	background-image: url(../icon/box.png);
+}
+.calendar
+{
+	background-image: url(../icon/calendar.png);
+}
+.hand
+{
+	background-image: url(../icon/hand.png);
+}
+.law
+{
+	background-image: url(../icon/law.png);
+}
+.speed
+{
+	background-image: url(../icon/speed.png);
+	
+}
+.transparency
+{
+	background-image: url(../icon/transparency.png);
+}

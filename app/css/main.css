@@ -100,6 +100,7 @@ div.navbar-text > span
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: auto;
+	z-index: 1;
 }
 .direction h1
 {
@@ -161,4 +162,22 @@ div.navbar-text > span
 {
 	color: #27bbee;
 	font-size: 62px;
+}
+.block-benefits
+{
+	margin: 50px auto;
+}
+.benefits p
+{
+	margin: 20px auto;
+	font-size: 24px;
+}
+.benefits p:before
+{
+	content: "";
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	border-top: 3px dashed red;
+	width: 200px;
 }
