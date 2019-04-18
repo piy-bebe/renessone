@@ -150,6 +150,15 @@ div.navbar-text > span
 	padding: 10px 50px;
 	margin: 50px auto;
 }
-/*================= SECTION DIRECTION LIST ===================== */
-/*================= SECTION DIRECTION LIST  ===================== */
-/*================= SECTION DIRECTION LIST  ===================== */
+/*================= SECTION BENEFITS ===================== */
+/*================= SECTION BENEFITS  ===================== */
+/*================= SECTION BENEFITS  ===================== */
+.benefits
+{
+	background-color: white;
+}
+.benefits h1 
+{
+	color: #27bbee;
+	font-size: 62px;
+}
