@@ -106,7 +106,7 @@ div.navbar-text > span
 {
 	margin-top: 120px;
 	color: #27bbee;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 62px;
 }
 /*================= SECTION DIRECTION LIST ===================== */
@@ -114,7 +114,7 @@ div.navbar-text > span
 /*================= SECTION DIRECTION LIST  ===================== */
 .list
 {
-	margin: 120px auto;
+	margin: 10px auto;
 	background-image: url(../img/direction_list.png);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -125,7 +125,7 @@ div.navbar-text > span
 {
 	margin-top: 150px;
 	color: white;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 62px;
 }
 .list h2
@@ -160,6 +160,8 @@ div.navbar-text > span
 }
 .benefits h1 
 {
+	font-weight: 400;
+	margin-bottom: 20px;
 	color: #27bbee;
 	font-size: 62px;
 }
@@ -169,7 +171,7 @@ div.navbar-text > span
 }
 .benefits p
 {
-	margin: 20px auto;
+	margin: 10px auto;
 	font-size: 24px;
 }
 .benefits p:before
@@ -177,7 +179,54 @@ div.navbar-text > span
 	content: "";
 	display: block;
 	position: relative;
-	margin: 0 auto;
-	border-top: 3px dashed red;
+	margin: 0 auto 20px;
+	border-top: 5px dashed rgba(110, 187, 237, 0.40);
 	width: 200px;
+}
+/*================= SECTION MAP ===================== */
+/*================= SECTION MAP  ===================== */
+/*================= SECTION MAP  ===================== */
+.maps h1
+{
+	font-weight: 400;
+	color: #27bbee;
+	font-size: 62px;
+}
+.map-header
+{
+	z-index: 2;
+	position: relative;
+	top: 100px;
+}
+/*================= SECTION NEWS ===================== */
+/*================= SECTION NEWS ===================== */
+/*================= SECTION NEWS ===================== */
+.news h1
+{
+	margin: 100px auto 50px;
+	color: #27bbee;
+	font-size: 62px;
+	font-weight: 400;
+}
+.news h2
+{
+
+}
+.news small
+{
+
+	color: #999;
+}
+.news p
+{
+	margin-top: 20px;
+}
+/*================= SECTION FOOTER ===================== */
+/*================= SECTION FOOTER ===================== */
+/*================= SECTION FOOTER ===================== */
+.footer
+{
+	margin-top: 220px;
+	height: 200px;
+	background: rgb(0, 114, 144);
 }
