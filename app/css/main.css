@@ -1,38 +1,60 @@
 /*================= FONTS ===================== */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+}
+
 
 /*================= SECTION HEAD ===================== */
 /*================= SECTION HEAD ===================== */
 /*================= SECTION HEAD ===================== */
-
 body
 {
 	font-family: 'Roboto';
 	font-weight: 400;
 	font-size: 18px;
 }
+hr
+{
+	display: none;
+}
 .head
 {
-
+	position: relative;
 	background-image: url(../img/header.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
-div.head > .bg-color-menu
+.bg-color-menu
 {
-	background: rgba(27, 46, 78, .29);
+	background: rgba(27, 46, 78, .39);
+}
+a.nav-link,
+a.navbar-brand
+{
+		color: white !important;
+		font-family: 'Roboto';
+		font-size: 18px;
+		font-weight: 300;
+}
+.navbar-nav li
+{
+	margin-right: 20px;
+}
+a.navbar-brand
+{
+	font-weight: 700;
 }
 /* mail and phone*/
-div.navbar-text > span
+.contact-menu
 {
-	margin: 10px;
+	margin-left: 40px;
+	margin-right: 20px;
 }
 .icon-style
 {
-	color: #254266;
+	color: rgba(27, 46, 78, .69);;
 	margin-right: 10px;
 }
 
@@ -57,17 +79,13 @@ div.navbar-text > span
 	background-image: url(../img/logo.png);
 	background-size: 400px;
 	background-repeat: no-repeat;
+	margin-top: 100px;
 }
 /* button presentation*/
-
-.btn-center
-{
-	margin-left: 80px;
-}
 .btn-style
 {
 	border: 4px solid rgb(37,188,239);
-	padding: 10px 30px 10px 30px;
+	padding: 20px 30px 20px 30px;
 	text-transform: lowercase;
 	font-weight: 500;
 	border-radius: 0;
@@ -77,16 +95,9 @@ div.navbar-text > span
 /* Text-logo*/
 .text-logo
 {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-.text-logo > h1
-{
-	font-size: 82px;
-	font-weight: 900;
+	font-size: 80px;
 	text-transform: uppercase;
-	text-align: right;
+	font-weight: 700;
 	color: white;
 }
 
@@ -226,7 +237,111 @@ div.navbar-text > span
 /*================= SECTION FOOTER ===================== */
 .footer
 {
-	margin-top: 220px;
-	height: 200px;
-	background: rgb(0, 114, 144);
+	margin-top: 120px;
+	background: #007290;
+	color: white;
+}
+
+.footer span
+{
+	text-align: center;
+	margin: 30px auto;
+	display: block;
+	font-size: 22px;
+
+}
+.footer span i 
+{
+	color: #25BCEF;
+}
+.footer ul 
+{
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.footer ul li
+{
+	margin-right: 20px;
+	font-size: 14px;
+	text-align: right;
+	list-style:none;
+	text-transform: uppercase;
+	margin: 10px auto;
+}
+.footer ul li:first-child
+{
+	font-size: 18px;
+	text-transform: none;
+	margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .text-logo {
+    font-size: 40px;
+    text-align: center;
+  }
+  .logo
+	{
+		margin-left:auto;
+		margin-right: auto;
+		background-size: 300px;
+	}
+	
+	.news h1,
+	.direction h1
+	{
+		font-size: 50px;
+	}
+	.list h1,
+	.maps h1,
+	.benefits h1
+	{
+		font-size: 46px;
+	}
+	.btn-style
+	{
+		border: 4px solid rgb(37,188,239);
+		padding: 20px 30px 20px 30px;
+		text-transform: lowercase;
+		font-weight: 500;
+		border-radius: 0;
+		font-size: 20px;
+		color: #254266;
+	}
+	.btn-center
+	{
+		text-align: center;
+	}
+	.ls
+	{
+		background-position: center;
+	}
+	span.contact-menu
+	{
+		display: block;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	hr
+	{
+		display: block;
+		background: #333;
+		height: 1px;
+	}
+	.bg-color-menu
+	{
+		background: rgba(27, 46, 78, .39);
+	}
+	a.nav-link i.set-wr
+	{
+		padding-right: 11px;
+	}
+	.services div > h2
+	{
+		font-size: 24px;
+	}
+	.list li
+	{
+		font-size: 18px;
+		padding: 5px;
+	}
 }

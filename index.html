@@ -7,13 +7,42 @@
 	<link rel="stylesheet" type="text/css" href="app/css/main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="app/css/icons.css">
+
 	</head>
 <body>
 	<div class="container-fluid head">
-		<nav class="navbar bg-color-menu">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-color-menu">
+					<a href="" class="navbar-brand">Renessone</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				 		<span class="navbar-toggler-icon"></span>
+					</button>
+					<div id="navbarNav" class="collapse navbar-collapse">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a href="#" class="nav-link"><i class="fas fa-project-diagram fa-lg align-middle tool-rotate-180 icon-style"></i> Компания</a>
+							</li>	
+							<li class="nav-item">
+								<a href="#" class="nav-link"><i class="fas fa-users fa-lg align-middle icon-style"></i> Персонал</a>
+							</li>	
+							<li class="nav-item">
+								<a href="#" class="nav-link"><i class="fas fa-map-marker-alt fa-lg align-middle icon-style set-wr"></i> Контакты</a>
+							</li>
+						</ul>
+						<hr>
+						<span class="text-white contact-menu"><i class="far fa-envelope fa-lg align-middle icon-style"></i> renessone@mail.ru</span>
+						<span class="text-white contact-menu"><i class="fas fa-phone tool-rotate fa-lg align-middle icon-style"></i> +7 (937) 324-11-41</span> 
+
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+
+<!-- 		<nav class="navbar bg-color-menu">
 			<ul class="nav">
 			  <li class="nav-item mr-5">
-			    
 			    <a class="nav-link text-white" href="#"><i class="fas fa-project-diagram fa-lg align-middle tool-rotate-180 icon-style"></i> Компания</a>
 			  </li>
 			  <li class="nav-item mr-5">
@@ -27,32 +56,36 @@
 				<span class="text-white"><i class="far fa-envelope fa-lg align-middle icon-style"></i> renessone@mail.ru</span><span class="text-white">|</span>
 				<span class="text-white"><i class="fas fa-phone tool-rotate fa-lg align-middle icon-style"></i> +7 (937) 324-11-41</span> 
 			</div>
-		</nav>
-		<div class="container-fluid btn-head-position">
-			<div class="logo">
+		</nav> -->
+		<div class="row h-100">
+			<div class="col-lg-12 align-self-start btn-center" >
+				<div class="logo ls">
+				</div>
+				<button class="btn btn-style btn-lg mt-5">Скачать презентацию</button>
 			</div>
-		</div>
-		<div class="container-fluid btn-head-position pt-3">
-			<button class="btn btn-center btn-style btn-lg">Скачать презентацию</button>
-		</div>
-		<div class="container text-logo">
-			<h1>Персонал:<br> поиск и управление</h1>
+			<div class="col-lg-12 text-right align-self-end">
+				<h1 class="text-logo">Персонал:<br> поиск и управление</h1>
+			</div>		
+<!-- 		<div class="row h-100 justify-content-center align-items-end" style=""> -->
 		</div>
 	</div>
+
+
+	<!-- ==================================================  -->
+
 	<div class="container-fluid direction">
-		<div class="row justify-content-center">
+		<div class="row justify-content-center" >
 			<div class="col-sm text-center">
-				<h1>Наши направления</h1>
+				<h1 >Наши направления</h1>
 			</div>
 		</div>
 		<div class="row justify-content-md-around mt-5">
 			<div class="col-lg-4 text-left mb-5">
 				<div class="row no-gutters">
-					<div class="col-md-auto ">
-						
+					<div class="col-lg-2 col-4">
 						<i class="icon-global icon-delivery-truck"></i>
 					</div>
-					<div class="col-md-8 ">
+					<div class="col-lg-8 col-8">
 						<h2>Логистика</h2>
 						<p class="text-wrap">передачи товаров, услуг или информации от поставщика к потребителю</p>
 					</div>
@@ -60,11 +93,10 @@
 			</div>
 			<div class="col-lg-4 text-left mb-5">
 				<div class="row no-gutters">
-					<div class="col-md-auto ">
-						
+					<div class="col-lg-2 col-4">
 						<i class="icon-global icon-factory"></i>
 					</div>
-					<div class="col-md-8 ">
+						<div class="col-lg-8 col-8">
 					<h2>Производство</h2>
 					<p>процесс создания человеческим трудом хозяйственных благ или предметов, служащих для удовлетворения человеческих потребностей.</p>
 					</div>
@@ -73,7 +105,7 @@
 			<div class="w-100"></div>
 			<div class="col-lg-4 text-left mb-5">
 				<div class="row no-gutters">
-					<div class="col-md-auto ">
+					<div class="col-lg-2 col-4">
 						
 						<i class="icon-global icon-tree-silhouette"></i>
 					</div>
@@ -85,11 +117,11 @@
 			</div>
 			<div class="col-lg-4 text-left mb-5">
 				<div class="row no-gutters">
-					<div class="col-md-auto ">
+					<div class="col-lg-2 col-4">
 						
 						<i class="icon-global icon-discount"></i>
 					</div>
-					<div class="col-md-8 ">
+					<div class="col-lg-8 col-8">
 						<h2>Ритейл</h2>
 						<p>розничная торговля, продажа товаров и или услуг конечному потребителю</p>
 					</div>
@@ -98,11 +130,11 @@
 			<div class="w-100"></div>
 			<div class="col-lg-4 text-left mb-5">
 				<div class="row no-gutters">
-					<div class="col-md-auto ">
+					<div class="col-lg-2 col-4">
 						
 						<i class="icon-global icon-gasoline-pump"></i>
 					</div>
-					<div class="col-md-8 ">
+					<div class="col-lg-8 col-8">
 						<h2>АЗС</h2>
 						<p>комплекс оборудования на придорожной территории, предназначенный для заправки топливом транспортных средств</p>
 					</div>
@@ -110,7 +142,7 @@
 			</div>
 			<div class="col-lg-4 text-left mb-5">
 				<div class="row no-gutters">
-					<div class="col-md-auto ">
+					<div class="col-lg-2 col-4">
 						
 						<i class="icon-global icon-plate-fork-and-knife"></i>
 					</div>
@@ -125,7 +157,7 @@
 	<div class="container-fluid list">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 text-center">
+				<div class="col-lg-12 col-12 text-center">
 					<h1>Направление: АЗС</h1>
 				</div>
 			</div>
@@ -163,7 +195,7 @@
 	<div class="container-fluid benefits">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-lg-12 mx-0 px-0 text-center">
 					<h1>Ваши преимущества</h1>
 				</div>
 			</div>
@@ -175,7 +207,7 @@
 					<p>Прозрачность</p>
 				</div>
 				
-				<div class="col-lg-4 block-benefits ">
+				<div class="col-lg-4 block-benefits">
 					<i class="icon-benefits speed"></i>
 					<p>Быстрый набор</p>
 				</div>
@@ -207,7 +239,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid maps px-0 mx-0">
+	<div class="container-fluid maps px-0 mx-0 d-none d-sm-block">
 		<div class="row px-0 mx-0">
 			<div class="col-lg-12 px-0 mx-0 text-center map-header">
 				<h1>Наши проекты</h1>
@@ -215,41 +247,78 @@
 		</div>
 		<div class="row px-0 mx-0">
 			<div class="col-lg-12 px-0 mx-0">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A61cd39725189515cea82ba31bcedcd792e2f4c269262ecfad19a1f3433754913&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false"></script>
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A61cd39725189515cea82ba31bcedcd792e2f4c269262ecfad19a1f3433754913&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false">
+				</script>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid news">
+	<div class="container news">
 		<div class="row text-center px-0 mx-0">
 			<div class="col-lg-12 px-0 mx-0">
 				<h1>Новости</h1>
 			</div>
-			<div class="row px-0 mx-0 justify-content-lg-around">
-				<div class="col-lg-2 text-left px-0 mx-0">
+		</div>
+			<div class="row px-0 mx-0 ">
+				<div class="col-lg-3 col-md-6 text-left">
 					<h2>Заголовок</h2>
 					<small>21 марта 2019</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat!</p>
 				</div>
-				<div class="col-lg-2 text-left px-0 mx-0">
+				<div class="col-lg-3 col-md-6 text-left">
 					<h2>Заголовок</h2>
 					<small>21 марта 2019</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati.</p>
 				</div>
-				<div class="col-lg-2 text-left px-0 mx-0">
+				<div class="col-lg-3 col-md-6 text-left">
 					<h2>Заголовок</h2>
 					<small>21 марта 2019</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi?</p>
 				</div>
-				<div class="col-lg-2 text-left px-0 mx-0">
+				<div class="col-lg-3 col-md-6 text-left">
 					<h2>Заголовок</h2>
 					<small>21 марта 2019</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam!</p>
 				</div>
 			</div>
-		</div>
 	</div>
 	<div class="container-fluid footer">
-		
+		<div class="row">
+			<div class="col-lg-2">
+				<span class="text-white"><i class="far fa-envelope fa-lg align-middle icon-style"></i> renessone@mail.ru</span>
+				<span class="text-white"><i class="fas fa-phone tool-rotate fa-lg align-middle icon-style"></i> +7 (937) 324-11-41</span> 
+			</div>
+			<div class="d-none d-sm-block col-4 col-lg-2 offset-lg-3">
+				<ul>
+					<li>Меню</li>
+					<li>О компании</li>
+					<li>Персонал</li>
+					<li>Контакты</li>
+				</ul>
+				
+			</div>
+			<div class="d-none d-sm-block col-4 col-lg-2">
+				<ul>
+					<li>Информация</li>
+					<li>Новости</li>
+				</ul>
+			</div>
+			<div class="d-none d-sm-block col-lg-2"s>
+				<ul>
+					<li>Соцсети</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 text-center">
+				<small>Все права защищены © 1892 - 2020</small>
+			</div>
+		</div>
 	</div>
+
+	 <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
