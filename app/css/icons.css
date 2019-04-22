@@ -1,19 +1,15 @@
 i.icon-global
 {
-	text-align: center;
 	display: block;
-	position: relative;
-	margin-top: 10px;
 	width: 100px;
 	height: 100px;
 	background-repeat: no-repeat;
-	padding: 0;
-	margin-top: 20px;
-	left: 20%;
+	position: relative;
+	left: 30%;
 }
 i.icon-delivery-truck
 {
-	left: 10%;
+	left: 20%;
 	background-image: url(../icon/delivery-truck.png);
 }
 i.icon-discount
