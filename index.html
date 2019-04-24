@@ -2,11 +2,18 @@
 <html lang="ru">
 <head>
 	<title></title>
+	<style>
+	html
+	{
+		overflow-x: hidden;
+	}
+	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="app/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="app/css/main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="app/css/icons.css">
+	<link rel="stylesheet" href="app/css/animate.css">
 
 	</head>
 <body>
@@ -59,12 +66,12 @@
 		</nav> -->
 		<div class="row h-100">
 			<div class="col-lg-12 align-self-start btn-center" >
-				<div class="logo ls">
+				<div class="logo ls wow fadeIn">
 				</div>
-				<button class="btn btn-style btn-lg mt-5">Скачать презентацию</button>
+				<button class="btn btn-style btn-lg mt-5 wow bounceInDown" data-wow-delay="0.1s">Скачать презентацию</button>
 			</div>
-			<div class="col-lg-12 text-right align-self-end">
-				<h1 class="text-logo">Персонал:<br> поиск и управление</h1>
+			<div class="col-lg-12 text-right align-self-end wow bounceInRight" data-wow-delay="0.5s">
+				<h1 class="text-logo ">Персонал:<br> поиск и управление</h1>
 			</div>		
 <!-- 		<div class="row h-100 justify-content-center align-items-end" style=""> -->
 		</div>
@@ -76,11 +83,11 @@
 	<div class="container-fluid direction">
 		<div class="row justify-content-center" >
 			<div class="col-sm text-center">
-				<h1 >Наши направления</h1>
+				<h1 class="wow bounceInUp">Наши направления</h1>
 			</div>
 		</div>
 		<div class="row justify-content-md-around mt-5">
-			<div class="col-lg-4 text-left mb-5">
+			<div class="col-lg-4 text-left mb-5 block-hover pt-3 wow bounceInLeft" data-wow-delay="0.1s">
 				<div class="row">
 					<div class="col-lg-3 col-md-2 col-3">
 						<i class="icon-global icon-delivery-truck"></i>
@@ -91,7 +98,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 text-left mb-5">
+			<div class="col-lg-4 text-left mb-5 block-hover pt-3 wow bounceInRight" data-wow-delay="0.1s">
 				<div class="row">
 					<div class="col-lg-3 col-md-2 col-3"">
 						<i class="icon-global icon-factory"></i>
@@ -103,7 +110,7 @@
 				</div>
 			</div>
 			<div class="w-100"></div>
-			<div class="col-lg-4 text-left mb-5">
+			<div class="col-lg-4 text-left mb-5 block-hover pt-3 wow bounceInLeft" data-wow-delay="0.2s">
 				<div class="row">
 					<div class="col-lg-3 col-md-2 col-3">
 						
@@ -115,7 +122,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 text-left mb-5">
+			<div class="col-lg-4 text-left mb-5 block-hover pt-3 wow bounceInRight" data-wow-delay="0.3s">
 				<div class="row">
 					<div class="col-lg-3 col-md-2 col-3">
 						
@@ -128,7 +135,7 @@
 				</div>
 			</div>
 			<div class="w-100"></div>
-			<div class="col-lg-4 text-left mb-5">
+			<div class="col-lg-4 text-left mb-5 block-hover pt-3 wow bounceInLeft" data-wow-delay="0.3s">
 				<div class="row">
 					<div class="col-lg-3 col-md-2 col-3">
 						<i class="icon-global icon-gasoline-pump"></i>
@@ -139,7 +146,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 text-left mb-5">
+			<div class="col-lg-4 text-left mb-5 block-hover pt-3 wow bounceInRight" data-wow-delay="0.3s">
 				<div class="row">
 					<div class="col-lg-3 col-md-2 col-3">
 						<i class="icon-global icon-plate-fork-and-knife"></i>
@@ -156,7 +163,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center">
-					<h1>Направление: АЗС</h1>
+					<h1 class="wow bounceInUp">Направление: АЗС</h1>
 				</div>
 			</div>
 			<div class="row services">
@@ -193,44 +200,44 @@
 	<div class="container-fluid benefits">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 mx-0 px-0 text-center">
+				<div class="col-lg-12 mx-0 px-0 text-center wow bounceInUp">
 					<h1>Ваши преимущества</h1>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row text-center">
-				<div class="col-lg-4 block-benefits">
+				<div class="col-lg-4 block-benefits wow zoomInUp" data-wow-delay="0.1s">
 					<i class="icon-benefits transparency"></i>
 					<p>Прозрачность</p>
 				</div>
 				
-				<div class="col-lg-4 block-benefits">
+				<div class="col-lg-4 block-benefits wow zoomInUp" data-wow-delay="0.3s">
 					<i class="icon-benefits speed"></i>
 					<p>Быстрый набор</p>
 				</div>
 				
-				<div class="col-lg-4 block-benefits">
+				<div class="col-lg-4 block-benefits wow zoomInUp" data-wow-delay="0.5s">
 					<i class="icon-benefits collaboration"></i>
 					<p>Опытные сотрудники</p>
 				</div>
 				
-				<div class="col-lg-4 block-benefits">
+				<div class="col-lg-4 block-benefits wow zoomInUp" data-wow-delay="0.1s">
 					<i class="icon-benefits calendar"></i>
 					<p>Гибкий график</p>
 				</div>
 				
-				<div class="col-lg-4 block-benefits">
+				<div class="col-lg-4 block-benefits wow zoomInUp" data-wow-delay="0.3s">
 					<i class="icon-benefits hand"></i>
 					<p>Отсрочка оплаты</p>
 				</div>
 				
-				<div class="col-lg-4 block-benefits">
+				<div class="col-lg-4 block-benefits wow zoomInUp" data-wow-delay="0.5s">
 					<i class="icon-benefits box"></i>
 					<p>Материально-техническое сопровождение</p>
 				</div>
 				
-				<div class="col-lg-12 block-benefits">
+				<div class="col-lg-12 block-benefits wow zoomInUp" data-wow-delay="0.1s" data-wow-offset="">
 					<i class="icon-benefits law"></i>
 					<p>Полное соответствие закону</p>
 				</div>
@@ -240,7 +247,7 @@
 	<div class="container-fluid maps px-0 mx-0 d-none d-sm-block">
 		<div class="row px-0 mx-0">
 			<div class="col-lg-12 px-0 mx-0 text-center map-header">
-				<h1>Наши проекты</h1>
+				<h1 class="wow bounceInUp">Наши проекты</h1>
 			</div>
 		</div>
 		<div class="row px-0 mx-0">
@@ -253,7 +260,7 @@
 	<div class="container news">
 		<div class="row text-center px-0 mx-0">
 			<div class="col-lg-12 px-0 mx-0">
-				<h1>Новости</h1>
+				<h1 class="wow bounceInUp">Новости</h1>
 			</div>
 		</div>
 			<div class="row px-0 mx-0">
@@ -320,5 +327,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="app/js/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>

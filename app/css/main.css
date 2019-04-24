@@ -7,11 +7,16 @@
 /*================= SECTION HEAD ===================== */
 /*================= SECTION HEAD ===================== */
 /*================= SECTION HEAD ===================== */
+html
+{
+	overflow:  hidden !important;
+}
 body
 {
 	font-family: 'Roboto';
 	font-weight: 400;
 	font-size: 18px;
+
 }
 hr
 {
@@ -128,6 +133,13 @@ a.navbar-brand
 	color: #27bbee;
 	font-weight: 400;
 	font-size: 62px;
+}
+.block-hover:hover
+{
+	background-color: rgba(116, 185, 255, 0.12);
+	cursor: pointer;
+	outline: 4px dashed rgba(116, 185, 255, 0.12);
+	outline-offset:-4px;
 }
 /*================= SECTION DIRECTION LIST ===================== */
 /*================= SECTION DIRECTION LIST  ===================== */
