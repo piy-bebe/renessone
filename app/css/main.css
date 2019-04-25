@@ -163,14 +163,19 @@ a.navbar-brand
 /*================= SECTION DIRECTION ===================== */
 /*================= SECTION DIRECTION ===================== */
 /*================= SECTION DIRECTION ===================== */
+.brbr-top
+{
+	border-top: 4px solid rgba(110, 187, 237, 0.5);
+}
 .direction
 {
 	background-image: url(../img/direction.png);
-	background-position: center top;
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: auto;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 70px;
 	z-index: 1;
 }
 .direction h1
@@ -239,7 +244,14 @@ a.navbar-brand
 /*================= SECTION BENEFITS  ===================== */
 .benefits
 {
-	background-color: white;
+	background-image: url(../img/direction.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	z-index: 1;
 }
 .benefits h1 
 {
@@ -251,7 +263,7 @@ a.navbar-brand
 }
 .block-benefits
 {
-	margin: 50px auto;
+	margin: 40px auto;
 }
 .benefits p
 {
@@ -270,6 +282,15 @@ a.navbar-brand
 /*================= SECTION MAP ===================== */
 /*================= SECTION MAP  ===================== */
 /*================= SECTION MAP  ===================== */
+.brbr
+{
+	border-top: 2px solid rgba(110, 187, 237, 0.5);
+	border-bottom: 2px solid rgba(110, 187, 237, 0.5);
+}
+.maps
+{
+	position: relative;
+}
 .maps h1
 {
 	font-weight: 400;
@@ -278,13 +299,24 @@ a.navbar-brand
 }
 .map-header
 {
-	z-index: 2;
-	position: relative;
-	top: 100px;
+	z-index: 1112;
+	position: absolute;
+	top: 40px;
 }
 /*================= SECTION NEWS ===================== */
 /*================= SECTION NEWS ===================== */
 /*================= SECTION NEWS ===================== */
+.news
+{
+	background-image: url(../img/direction.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-bottom: 0px;
+	padding-bottom: 100px;
+	z-index: 1;
+}
 .news h1
 {
 	margin: 80px auto 100px;
@@ -302,14 +334,14 @@ a.navbar-brand
 }
 .news p
 {
-	margin-top: 20px;
+
 }
 /*================= SECTION FOOTER ===================== */
 /*================= SECTION FOOTER ===================== */
 /*================= SECTION FOOTER ===================== */
 .footer
 {
-	margin-top: 120px;
+
 	background: #007290;
 	color: white;
 }
