@@ -480,8 +480,9 @@ li.footer-contact-list span
 	hr
 	{
 		display: block;
-		background: #333;
-		height: 1px;
+		border: none;
+		border-bottom: 1px solid rgba(255, 255, 255, .17);
+		opacity: 1;
 	}
 	.bg-color-menu
 	{
@@ -544,12 +545,13 @@ li.footer-contact-list span
 
 	.contact-menu
 	{
+		padding-bottom: 10px;
 		margin-left: 15px;
 		margin-right: 0px;
 	}
 	.icon-style
 	{
-	margin-right: 5px;
+	margin-right: 10px;
 	}
 	.footer span
 	{
