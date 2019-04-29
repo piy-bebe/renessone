@@ -352,11 +352,13 @@ a.navbar-brand
 	display: block;
 	position: absolute;
 	top:60%;
-	left: 75%;
+	left: 65%;
 	transform: rotate(65deg);
 	background-color: #fff;
 	width: 380px;
-	height: 12px;
+	height: 35px;
+	outline: 7px dashed #27bbee;
+	z-index: 9999;
 }
 .footer span i 
 {
