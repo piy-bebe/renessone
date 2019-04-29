@@ -344,8 +344,20 @@ a.navbar-brand
 
 	background: #007290;
 	color: white;
+	overflow: hidden;
 }
-
+.dec-line::after
+{
+	content: "";
+	display: block;
+	position: absolute;
+	top:60%;
+	left: 75%;
+	transform: rotate(65deg);
+	background-color: #fff;
+	width: 380px;
+	height: 12px;
+}
 .footer span i 
 {
 	color: #25BCEF;
@@ -411,6 +423,12 @@ li.footer-contact-list span
 	font-weight: 400;
 }
 @media (max-width: 992px) {
+	.dec-line::after
+	{
+		display: none;
+		overflow: hidden;
+		visibility: hidden;
+	}
   .text-logo {
     font-size: 40px;
     text-align: center;
